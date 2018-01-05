@@ -1,0 +1,15 @@
+# How to compile:
+javac Teller.java
+javac Test.java
+
+# Run without commandline argument:
+java Teller
+
+# Run with commandline arguments (arguments must be numbers):
+java Teller 2.0 2.01 2.12 2.19 2.21
+
+# Run batch testing on inputs within (0.01 and 100.00):
+java Test 1
+
+# Run batch testing on inputs approaching Integer limits:
+java Test 2
